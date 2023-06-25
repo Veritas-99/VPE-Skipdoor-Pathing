@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <JobDef>
+        <defName>VPESP_MoveItem</defName>
+        <driverClass>VPESkipdoorPathing.JobDriver_MoveItem</driverClass>
+        <reportString>using TargetA to teleport TargetB to TargetC</reportString>
+        <casualInterruptible>false</casualInterruptible>
+        <allowOpportunisticPrefix>false</allowOpportunisticPrefix>
+    </JobDef>
+	
+</Defs>

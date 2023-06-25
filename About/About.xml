@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>VPE Skipdoor Pathing</name>
+	<author>Veritas</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>Veritas.VPESkipdoorPathing</packageId>
+	<description>Makes pawns (colonists and slaves) auto use appropriate Skipdoors if it would result in a shorter path to their destination.</description>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Vanilla Psycasts Expanded</li>
+	</loadAfter>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>VanillaExpanded.VPsycastsE</packageId>
+			<displayName>Vanilla Psycasts Expanded</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2842502659</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+</ModMetaData>
