@@ -48,12 +48,10 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="VanillaPsycastsExpanded">
-      <HintPath>..\..\..\VanillaPsycastsExpanded\1.4\Assemblies\VanillaPsycastsExpanded.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\.steam\steam\steamapps\workshop\content\294100\2842502659\1.4\Assemblies\VanillaPsycastsExpanded.dll</HintPath>
     </Reference>
     <Reference Include="VFECore">
-      <HintPath>..\..\..\VanillaExpandedFramework\1.4\Assemblies\VFECore.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\.steam\steam\steamapps\workshop\content\294100\2023507013\1.4\Assemblies\VFECore.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
