@@ -6,3 +6,7 @@ D:\tools\e\VPE-Skipdoor-Pathing\1.4\Source\obj\Debug\VPESkipdoorPathing.csproj.A
 D:\tools\e\VPE-Skipdoor-Pathing\1.4\Source\obj\Debug\VPESkipdoorPathing.csproj.CoreCompileInputs.cache
 D:\tools\e\VPE-Skipdoor-Pathing\1.4\Assemblies\VPESkipdoorPathing.dll
 D:\tools\e\VPE-Skipdoor-Pathing\1.4\Source\obj\Debug\VPESkipdoorPathing.dll
+D:\tools\e\st\steamapps\common\RimWorld\Mods\VPE-Skipdoor-Pathing\1.4\Assemblies\VPESkipdoorPathing.dll
+D:\tools\e\st\steamapps\common\RimWorld\Mods\VPE-Skipdoor-Pathing\1.4\Source\obj\Debug\VPESkipdoorPathing.csproj.AssemblyReference.cache
+D:\tools\e\st\steamapps\common\RimWorld\Mods\VPE-Skipdoor-Pathing\1.4\Source\obj\Debug\VPESkipdoorPathing.csproj.CoreCompileInputs.cache
+D:\tools\e\st\steamapps\common\RimWorld\Mods\VPE-Skipdoor-Pathing\1.4\Source\obj\Debug\VPESkipdoorPathing.dll

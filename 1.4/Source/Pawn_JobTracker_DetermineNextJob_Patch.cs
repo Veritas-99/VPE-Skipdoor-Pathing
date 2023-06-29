@@ -20,11 +20,10 @@ namespace VPESkipdoorPathing
             if (pawn.IsColonist || pawn.IsSlaveOfColony)
             {
                 if (ShouldNotUseTeleport(__result.Job, pawn))
-                {
                     return;
-                }
                 var jobDef = __result.Job.def;
-                if (!__result.Job.DetermineTargets(out IntVec3 firstTarget, out IntVec3 secondTarget)) return;
+                if (!__result.Job.DetermineTargets(out IntVec3 firstTarget, out IntVec3 secondTarget))
+                    return;
                 float pawnTargetDistance = pawn.Position.DistanceTo(firstTarget);
                 float firstToSecondTargetDistance;
                 if (secondTarget.IsValid && (jobDef == JobDefOf.HaulToCell || jobDef == JobDefOf.HaulToContainer))
@@ -37,7 +36,7 @@ namespace VPESkipdoorPathing
                     {
                         pawn.jobs.jobQueue.EnqueueFirst(__result.Job);
                         var comp = pawn.GetComp<CompSkipdoorPathing>();
-                        comp.jobQueue = pawn.jobs.CaptureAndClearJobQueue();
+                        comp.JobQueue = pawn.jobs.CaptureAndClearJobQueue();
                         var job = JobMaker.MakeJob(VPE_DefOf.VEF_UseDoorTeleporter, bestGate);
                         job.globalTarget = bestTarget;
                         __result = new ThinkResult(job, __result.SourceNode, __result.Tag, false);
@@ -52,7 +51,7 @@ namespace VPESkipdoorPathing
                 || pawn.def.race.intelligence != Intelligence.Humanlike || job == null
                 || typeof(JobDriver_UseDoorTeleporter).IsAssignableFrom(job.def.driverClass)
                 || job.def == JobDefOf.Wait_Wander || job.def == JobDefOf.GotoWander
-                || pawn.GetComp<CompSkipdoorPathing>().enabled is false && pawn.Drafted || pawn.InMentalState || (pawn.mindState.duty != null
+                || pawn.GetComp<CompSkipdoorPathing>().Enabled is false && pawn.Drafted || pawn.InMentalState || (pawn.mindState.duty != null
                     && (pawn.mindState.duty.def == DutyDefOf.TravelOrWait
                     || pawn.mindState.duty.def == DutyDefOf.TravelOrLeave));
         }

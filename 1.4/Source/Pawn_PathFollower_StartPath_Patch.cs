@@ -41,7 +41,7 @@ namespace VPESkipdoorPathing
                                     {
                                         pawn.CurJob.count = stackCount;
                                         pawn.jobs.jobQueue.EnqueueFirst(pawn.CurJob);
-                                        comp.jobQueue = pawn.jobs.CaptureAndClearJobQueue();
+                                        comp.JobQueue = pawn.jobs.CaptureAndClearJobQueue();
                                         var newJob = JobMaker.MakeJob(VPE_DefOf.VPESP_MoveItem, bestGate, thing, bestTarget);
                                         newJob.count = stackCount;
                                         newJob.globalTarget = bestTarget;
@@ -52,7 +52,7 @@ namespace VPESkipdoorPathing
                             else
                             {
                                 pawn.jobs.jobQueue.EnqueueFirst(pawn.CurJob);
-                                comp.jobQueue = pawn.jobs.CaptureAndClearJobQueue();
+                                comp.JobQueue = pawn.jobs.CaptureAndClearJobQueue();
                                 var newJob = JobMaker.MakeJob(VPE_DefOf.VEF_UseDoorTeleporter, bestGate);
                                 newJob.globalTarget = bestTarget;
                                 pawn.jobs.StartJob(newJob, JobCondition.InterruptForced);

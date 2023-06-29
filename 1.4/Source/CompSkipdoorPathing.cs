@@ -11,8 +11,10 @@ namespace VPESkipdoorPathing
 {
     public class CompSkipdoorPathing : ThingComp
     {
-        public JobQueue jobQueue;
-        public bool enabled;
+        public JobQueue JobQueue;
+
+        public bool Enabled;
+
         public override IEnumerable<Gizmo> CompGetGizmosExtra()
         {
             if (this.parent is Pawn pawn && pawn.IsColonistPlayerControlled)
@@ -21,8 +23,8 @@ namespace VPESkipdoorPathing
                 {
                     defaultLabel = "DraftedSkipdoorPathing".Translate(),
                     icon = ContentFinder<Texture2D>.Get("UI/DraftedSkipdoorPathing"),
-                    isActive = () => enabled,
-                    toggleAction = () => enabled = !enabled
+                    isActive = () => Enabled,
+                    toggleAction = () => Enabled = !Enabled
                 };
             }
         }
@@ -30,8 +32,8 @@ namespace VPESkipdoorPathing
         public override void PostExposeData()
         {
             base.PostExposeData();
-            Scribe_Values.Look(ref enabled, "enabled");
-            Scribe_Deep.Look(ref jobQueue, "jobQueue");
+            Scribe_Values.Look(ref Enabled, "enabled");
+            Scribe_Deep.Look(ref JobQueue, "jobQueue");
         }
     }
 }
