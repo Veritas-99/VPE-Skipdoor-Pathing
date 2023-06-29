@@ -1,31 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "/home/v337/Documents/VPE-Skipdoor-Pathing/1.4/Source/VPESkipdoorPathing.csproj": {}
+    "D:\\tools\\e\\VPE-Skipdoor-Pathing\\1.4\\Source\\VPESkipdoorPathing.csproj": {}
   },
   "projects": {
-    "/home/v337/Documents/VPE-Skipdoor-Pathing/1.4/Source/VPESkipdoorPathing.csproj": {
+    "D:\\tools\\e\\VPE-Skipdoor-Pathing\\1.4\\Source\\VPESkipdoorPathing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/v337/Documents/VPE-Skipdoor-Pathing/1.4/Source/VPESkipdoorPathing.csproj",
+        "projectUniqueName": "D:\\tools\\e\\VPE-Skipdoor-Pathing\\1.4\\Source\\VPESkipdoorPathing.csproj",
         "projectName": "VPESkipdoorPathing",
-        "projectPath": "/home/v337/Documents/VPE-Skipdoor-Pathing/1.4/Source/VPESkipdoorPathing.csproj",
-        "packagesPath": "/home/v337/.nuget/packages/",
-        "outputPath": "/home/v337/Documents/VPE-Skipdoor-Pathing/1.4/Source/obj/",
+        "projectPath": "D:\\tools\\e\\VPE-Skipdoor-Pathing\\1.4\\Source\\VPESkipdoorPathing.csproj",
+        "packagesPath": "C:\\Users\\n.wasserkampf\\.nuget\\packages\\",
+        "outputPath": "D:\\tools\\e\\VPE-Skipdoor-Pathing\\1.4\\Source\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "/home/v337/.local/share/godot/mono/GodotNuGetFallbackFolder"
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "/home/v337/.nuget/NuGet/NuGet.Config",
-          "/home/v337/.nuget/NuGet/config/Godot.Offline.Config"
+          "C:\\Users\\n.wasserkampf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net48"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://nuget.devexpress.com/uX69uGLmkbTQvEKh7JPHU3FBQUQVxaJirwixyF4eW2J9FUkkaP/api": {},
+          "https://tfs.aw-systems.info/SuP%20Projects/136416d4-ace0-4d29-951a-5b96bf7b7ae6/_packaging/DBDConnect/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net48": {
@@ -42,10 +48,6 @@
               "target": "Package",
               "version": "[2.*, )"
             },
-            "Krafs.Rimworld.Ref": {
-              "target": "Package",
-              "version": "[1.4.*, )"
-            },
             "Lib.Harmony": {
               "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "target": "Package",
@@ -56,6 +58,9 @@
       },
       "runtimes": {
         "win": {
+          "#import": []
+        },
+        "win-arm64": {
           "#import": []
         },
         "win-x64": {

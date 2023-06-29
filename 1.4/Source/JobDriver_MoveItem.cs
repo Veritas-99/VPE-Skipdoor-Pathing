@@ -9,11 +9,13 @@ namespace VPESkipdoorPathing
     public class JobDriver_MoveItem : JobDriver_UseDoorTeleporter
     {
         private bool forbiddenInitially;
+
         public override void ExposeData()
         {
             base.ExposeData();
             Scribe_Values.Look(ref forbiddenInitially, "forbiddenInitially", defaultValue: false);
         }
+
         public override void Notify_Starting()
         {
             base.Notify_Starting();
@@ -26,11 +28,13 @@ namespace VPESkipdoorPathing
                 forbiddenInitially = false;
             }
         }
+
         public override bool TryMakePreToilReservations(bool errorOnFailed)
         {
             return pawn.Reserve(job.GetTarget(TargetIndex.B), job, 1, -1, null, errorOnFailed);
         }
-        protected override IEnumerable<Toil> MakeNewToils()
+
+        public override IEnumerable<Toil> MakeNewToils()
         {
             this.FailOnDestroyedOrNull(TargetIndex.B);
             this.FailOnBurningImmobile(TargetIndex.B);
