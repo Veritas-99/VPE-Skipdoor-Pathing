@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>VPE Skipdoor Pathing</name>
-	<author>Veritas</author>
+	<author>V337</author>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
-	<packageId>Veritas.VPESkipdoorPathing</packageId>
+	<packageId>V337.VPESkipdoorPathing</packageId>
 	<description>Makes pawns (colonists and slaves) auto use appropriate Skipdoors if it would result in a shorter path to their destination.</description>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
