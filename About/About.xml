@@ -6,7 +6,7 @@
 		<li>1.4</li>
 	</supportedVersions>
 	<packageId>v337.VPESkipdoorPathing</packageId>
-	<description>Makes pawns (colonists and slaves) auto use appropriate Skipdoors if it would result in a shorter path to their destination.</description>
+	<description>Makes pawns (colonists and slaves) auto use appropriate Skipdoors if it would result in a shorter path to their destination</description>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
