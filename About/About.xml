@@ -5,7 +5,7 @@
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
-	<packageId>V337.VPESkipdoorPathing</packageId>
+	<packageId>v337.VPESkipdoorPathing</packageId>
 	<description>Makes pawns (colonists and slaves) auto use appropriate Skipdoors if it would result in a shorter path to their destination.</description>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\tools\\e\\st\\steamapps\\common\\RimWorld\\Mods\\VPE-Skipdoor-Pathing\\1.4\\Source\\VPESkipdoorPathing.csproj": {}
+    "D:\\tools\\e\\VPE-Skipdoor-Pathing\\1.4\\Source\\VPESkipdoorPathing.csproj": {}
   },
   "projects": {
-    "D:\\tools\\e\\st\\steamapps\\common\\RimWorld\\Mods\\VPE-Skipdoor-Pathing\\1.4\\Source\\VPESkipdoorPathing.csproj": {
+    "D:\\tools\\e\\VPE-Skipdoor-Pathing\\1.4\\Source\\VPESkipdoorPathing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\tools\\e\\st\\steamapps\\common\\RimWorld\\Mods\\VPE-Skipdoor-Pathing\\1.4\\Source\\VPESkipdoorPathing.csproj",
+        "projectUniqueName": "D:\\tools\\e\\VPE-Skipdoor-Pathing\\1.4\\Source\\VPESkipdoorPathing.csproj",
         "projectName": "VPESkipdoorPathing",
-        "projectPath": "D:\\tools\\e\\st\\steamapps\\common\\RimWorld\\Mods\\VPE-Skipdoor-Pathing\\1.4\\Source\\VPESkipdoorPathing.csproj",
+        "projectPath": "D:\\tools\\e\\VPE-Skipdoor-Pathing\\1.4\\Source\\VPESkipdoorPathing.csproj",
         "packagesPath": "C:\\Users\\n.wasserkampf\\.nuget\\packages\\",
-        "outputPath": "D:\\tools\\e\\st\\steamapps\\common\\RimWorld\\Mods\\VPE-Skipdoor-Pathing\\1.4\\Source\\obj\\",
+        "outputPath": "D:\\tools\\e\\VPE-Skipdoor-Pathing\\1.4\\Source\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
