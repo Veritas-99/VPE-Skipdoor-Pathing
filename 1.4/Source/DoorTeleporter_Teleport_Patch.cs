@@ -32,19 +32,17 @@ namespace VPESkipdoorPathing
                 bool drafted = pawn.drafter != null && pawn.Drafted;
                 bool flag = Find.Selector.IsSelected(pawn);
                 pawn.teleporting = true;
-                if (pawn.Map != mapTarget)
+                if (pawn.Map == mapTarget)
                 {
-                    Log.Message($"VPESP: {DateTime.Now} - Original");
+                    pawn.Position = cellTarget;
+                    pawn.teleporting = false;
+                }
+                else
+                {
                     pawn.ClearAllReservations(releaseDestinationsOnlyIfObsolete: false);
                     pawn.ExitMap(allowedToJoinOrCreateCaravan: false, Rot4.Invalid);
                     pawn.teleporting = false;
                     GenSpawn.Spawn(pawn, cellTarget, mapTarget);
-                }
-                else
-                {
-                    Log.Message($"VPESP: {DateTime.Now} - Modified");
-                    pawn.teleporting = false;
-                    pawn.Position = cellTarget;
                 }
                 if (pawn.drafter != null)
                 {
