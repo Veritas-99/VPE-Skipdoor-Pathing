@@ -3,3 +3,6 @@
 ################################################################################
 
 *.dds
+*.vsidx
+/1.4/Source/.vs/VPESkipdoorPathing/FileContentIndex/6ac40a65-8054-4b81-98a5-5ab39b8ffbd0.vsidx
+/1.4/Source/.vs/VPESkipdoorPathing/v17/.suo
