@@ -18,15 +18,12 @@ namespace VPESkipdoorPathing
             Pawn pawn = thing as Pawn;
             if (pawn != null)
             {
-                if (pawn.Map != mapTarget)
+                Thing resultingThing = pawn.carryTracker.CarriedThing;
+                if (resultingThing != null)
                 {
-                    Thing resultingThing = pawn.carryTracker.CarriedThing;
-                    if (resultingThing != null)
-                    {
-                        pawn.carryTracker.TryDropCarriedThing(pawn.Position, ThingPlaceMode.Near, out resultingThing);
-                        resultingThing.DeSpawn();
-                        GenSpawn.Spawn(resultingThing, cellTarget, mapTarget);
-                    }
+                    pawn.carryTracker.TryDropCarriedThing(pawn.Position, ThingPlaceMode.Near, out resultingThing);
+                    resultingThing.DeSpawn();
+                    GenSpawn.Spawn(resultingThing, cellTarget, mapTarget);
                 }
 
                 bool drafted = pawn.drafter != null && pawn.Drafted;
