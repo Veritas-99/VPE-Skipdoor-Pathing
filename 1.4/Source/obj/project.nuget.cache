@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "IE9o7ZsVc8WRu0CvMBnFZDDLrTbpCT9Lu3op9ijgft6eEWkTK69O4locR8NFBO2usNLA24fo7d0rccSi9p3gUA==",
+  "dgSpecHash": "MBuDsUi+6i5x3G7Kat6QUZRRdVH0vL5XqsMWcsIhkTAHRCdXbltk8Vuw+nxiox+eEatuwCnltDL7Ar0//TLdgg==",
   "success": true,
-  "projectFilePath": "D:\\tools\\e\\VPE-Skipdoor-Pathing\\1.4\\Source\\VPESkipdoorPathing.csproj",
+  "projectFilePath": "/home/v337/.steam/steam/steamapps/common/RimWorld/Mods/VPE-Skipdoor-Pathing/1.4/Source/VPESkipdoorPathing.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\n.wasserkampf\\.nuget\\packages\\krafs.publicizer\\2.2.1\\krafs.publicizer.2.2.1.nupkg.sha512",
-    "C:\\Users\\n.wasserkampf\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
+    "/home/v337/.nuget/packages/krafs.publicizer/2.2.1/krafs.publicizer.2.2.1.nupkg.sha512",
+    "/home/v337/.nuget/packages/lib.harmony/2.2.2/lib.harmony.2.2.2.nupkg.sha512"
   ],
   "logs": []
 }
