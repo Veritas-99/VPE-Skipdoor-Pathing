@@ -49,6 +49,18 @@ namespace VPESkipdoorPathing
                                     }
                                 }
                             }
+                            else if (pawn.roping.IsRopingOthers)
+                            {
+                                var firstRopee = pawn.roping.Ropees.First();
+                                        
+                                pawn.CurJob.count = firstRopee.stackCount;
+                                pawn.jobs.jobQueue.EnqueueFirst(pawn.CurJob);
+                                comp.JobQueue = pawn.jobs.CaptureAndClearJobQueue();
+                                var newJob = JobMaker.MakeJob(VPE_DefOf.VPESP_MoveItem, bestGate, firstRopee, bestTarget);
+                                newJob.count = firstRopee.stackCount;
+                                newJob.globalTarget = bestTarget;
+                                pawn.jobs.StartJob(newJob, JobCondition.InterruptForced);
+                            }
                             else
                             {
                                 pawn.jobs.jobQueue.EnqueueFirst(pawn.CurJob);
